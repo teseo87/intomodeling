@@ -1,0 +1,602 @@
+* {
+    box-sizing: border-box!important
+}
+
+.navbar-header {
+    display: none!important
+}
+
+.navbar-nav {
+    float: none !important;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#menu-item-2154 {
+    text-indent: -9999px;
+    background: url(http://intomodeling.com/wp-content/uploads/2017/12/logo.png) no-repeat center center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 2em;
+    background-size: contain
+}
+
+.page .wpb_wrapper {
+    padding: 0 8em
+}
+
+.page p,
+.page ul li {
+    font-size: 1.2em;
+    line-height: 1.75
+}
+
+.models li a {
+    cursor: pointer!important;
+    background: #C2C2FF;
+}
+
+.models.columns-4 li {
+    width: calc(100% / 3)
+}
+
+#page>.container>.page-title,
+#content>.container>.page-title,
+#blog>.container>.page-title {
+    margin-top: 120px !important
+}
+
+.single-model .gallery {
+    display: none!important
+}
+
+.testimonial,
+.testimonials {
+    padding-left: 120px;
+    position: relative;
+    text-align: left!important;
+    min-height: 110px
+}
+
+.testimonial:before,
+.testimonials:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: #ddd;
+    left: 0
+}
+
+.testimonial.uno:before {
+    background-image: url(http://intomodeling.com/wp-content/uploads/2017/12/1.jpg)
+}
+
+.testimonials.dos:before {
+    background-image: url(http://intomodeling.com/wp-content/uploads/2017/12/2.jpg)
+}
+
+.testimonials.cuatro:before {
+    background-image: url(http://intomodeling.com/wp-content/uploads/2017/12/3.jpg)
+}
+
+.testimonials.tres:before {
+    background-image: url(http://intomodeling.com/wp-content/uploads/2017/12/4.jpg)
+}
+
+#testimonials {
+    background: #f2f2f2
+}
+
+
+/*thankyou*/
+
+.page-id-2287 #page {
+    min-height: 90vh!important
+}
+
+.page-id-2.page .wpb_wrapper {
+    padding: 0!important
+}
+
+* {
+    box-sizing: border-box!important
+}
+
+.navbar-header {
+    display: none!important
+}
+
+.navbar-nav {
+    float: none !important;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#menu-item-2154 {
+    text-indent: -9999px;
+    background: url(http://intomodeling.com/wp-content/uploads/2017/12/logo.png) no-repeat center center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 2em;
+    background-size: contain
+}
+
+.page .wpb_wrapper {
+    padding: 0 9em
+}
+
+.page p,
+.page ul li {
+    font-size: 1.2em;
+    line-height: 1.75
+}
+
+.models li a {
+    cursor: pointer!important;
+    background: #C2C2FF;
+}
+
+.models.columns-4 li {
+    width: calc(100% / 3)
+}
+
+#page>.container>.page-title,
+#content>.container>.page-title,
+#blog>.container>.page-title {
+    margin-top: 120px !important
+}
+
+.single-model .gallery {
+    display: none!important
+}
+
+.testimonial,
+.testimonials {
+    padding-left: 120px;
+    position: relative;
+    text-align: left!important;
+    min-height: 110px
+}
+
+.testimonial:before,
+.testimonials:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: #ddd;
+    left: 0
+}
+
+.testimonial.uno:before {
+    background-image: url(http://intomodeling.com/wp-content/uploads/2017/12/1.jpg)
+}
+
+.testimonials.dos:before {
+    background-image: url(http://intomodeling.com/wp-content/uploads/2017/12/2.jpg)
+}
+
+.testimonials.cuatro:before {
+    background-image: url(http://intomodeling.com/wp-content/uploads/2017/12/3.jpg)
+}
+
+.testimonials.tres:before {
+    background-image: url(http://intomodeling.com/wp-content/uploads/2017/12/4.jpg)
+}
+
+#testimonials {
+    background: #f2f2f2
+}
+
+.page-id-2.page .wpb_wrapper,
+.page-id-2284 .wpb_wrapper,
+.page-id-2287 .wpb_wrapper,
+.page-id-2291 .wpb_wrapper,
+.page-id-2295 .wpb_wrapper,
+.page-id-2300 .wpb_wrapper,
+.page-id-2261 .wpb_wrapper {
+    padding: 0!important
+}
+
+#footer {
+    background: #000
+}
+
+.footNav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footNav ul li {
+    display: inline;
+    padding: 0 1em
+}
+
+.footNav ul li a {
+    font-family: Oranienbaum;
+    text-transform: uppercase
+}
+
+.footNav ul li a:hover,
+.footNav ul li a:focus,
+.footNav ul li a:active {
+    color: #9999FF;
+}
+
+body.hide-nav.page-template-page-home-php .navbar {
+    top: -120px
+}
+
+.entry-content.profile h3 {
+    text-align: center;
+    font-size: 3em
+}
+
+.entry-content.profile p,
+.entry-content.profile ul li {
+    font-size: 1.2em;
+    line-height: 1.75
+}
+
+.entry-content.profile p.font14 {
+    text-align: center
+}
+
+.entry-content.profile p strong {
+    color: #9999FF;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #9999FF;
+}
+
+.western span {
+    font-size: 1.5em;
+    font-weight: bold
+}
+
+#stay-in-touch {
+    background: #e0e0ff;
+}
+
+#stay-in-touch .container .page-title h4 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+    font-family: "PT Sans";
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #cc00cc;
+    border: none!important;
+    background-image: none!important
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #f800ff
+}
+
+#stay-in-touch .container form h4,
+#splite_form_container form h4 {
+    display: none
+}
+
+#stay-in-touch .container .divider,
+#splite_form_container .divider {
+    display: none
+}
+
+#stay-in-touch .container form .row,
+#splite_form_container form .row {
+    margin: 0
+}
+
+#splite_form_container form .row>div {
+    margin: 0 0 10px 0
+}
+
+#splite_popup_description {
+    margin: 0 !important;
+    line-height: 1 !important;
+    font-size: 18px !important;
+    font-weight: bold !important
+}
+
+@media (min-width: 1200px) {
+    .single-model .divider {
+        display: none
+    }
+    #welcome-2 {
+        display: none!important
+    }
+    #welcome {
+        z-index: 200 !important
+    }
+    #stay-in-touch {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 250px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+        background: #e0e0ff;
+    }
+    #stay-in-touch .tint {
+        background: none!important
+    }
+    #stay-in-touch .container {
+        width: 100%;
+        padding: 20px;
+    }
+    #stay-in-touch .container .page-title {
+        margin: 0
+    }
+    #stay-in-touch .container .page-title h2 {
+        margin: 0;
+        font-size: 2em
+    }
+    #stay-in-touch .container .wpb_wrapper {
+        padding: 0!important
+    }
+    #stay-in-touch .container form .col-md-6,
+    #stay-in-touch .container form .col-md-4,
+    #stay-in-touch .container form .col-md-12 {
+        width: 100%;
+        margin-bottom: 5px
+    }
+    #stay-in-touch .container form .form-control {
+        padding: 6px 12px;
+    }
+    #stay-in-touch .container .social-icons {
+        display: none
+    }
+    #stay-in-touch form .wpcf7-exclusive-checkbox {
+        background: none;
+        border: none;
+        box-shadow: none;
+        padding: 0!important;
+        font-size: .85em;
+        margin-bottom: 1em
+    }
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:focus {
+        background: #cc00cc;
+        border: none!important;
+        background-image: none!important
+    }
+    .btn-primary:hover,
+    .btn-primary:focus {
+        background: #f800ff
+    }
+    .splite_sideEnquiry {
+        display: none!important
+    }
+    #formMobile,
+    #titleMobile,
+    .formMobile,
+    .wow-modal-botton-1 {
+        display: none!important
+    }
+    .testimonial,
+    .testimonials {
+        padding-right: 9em
+    }
+}
+
+@media (max-width:1199px) {
+    .page .wpb_wrapper {
+        padding: 0 2em
+    }
+    form .row {
+        margin: 0
+    }
+    form .row>div {
+        margin-bottom: 30px
+    }
+    #menu-item-2158 {
+        margin: 0 100px 0 -35px;
+    }
+    .btn-primary,
+    .btn-primary:hover,
+    .btn-primary:focus {
+        display: block;
+        margin: auto
+    }
+    #welcome {
+        display: none!important
+    }
+    #stay-in-touch {
+        display: none!important
+    }
+    #about-us .page-title {
+        display: none!important
+    }
+    #formMobile {
+        background: #c2c2ff
+    }
+    #formMobile {
+        display: none!important
+    }
+    #menu-item-2158 {
+        margin: auto;
+    }
+}
+
+@media (max-width:600px) {
+    .navbar-header {
+        display: block !important;
+        margin: auto!important;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .navbar-brand {
+        height: 90px
+    }
+    .navbar-brand img {
+        height: 100%
+    }
+    .navbar-toggle {
+        margin-top: 28px
+    }
+    .page .wpb_wrapper {
+        padding: 0!important
+    }
+    .btn-primary {
+        display: block;
+        margin: auto
+    }
+    .footNav ul li {
+        padding: 0 10px
+    }
+    .footNav ul li a {
+        font-size: 10px;
+        font-family: "PT Sans";
+    }
+    .models.columns-4 li {
+        width: 100%
+    }
+    .wpcf7-form .row>div {
+        margin-bottom: 10px
+    }
+    form .row {
+        margin: 0
+    }
+    .navbar-nav {
+        flex-direction: column
+    }
+    #menu-item-2154 {
+        display: none
+    }
+}
+
+
+/*cambios modal form*/
+
+#splite_popup_title {
+    margin: 1em 0 0 0;
+    text-transform: uppercase
+}
+
+#splite_popup_description {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.wow-modal-overlay {
+    z-index: 9999999999999999999999999999999999999999999!important
+}
+
+.wow-modal-window {
+    position: absolute!important;
+}
+
+#wow-modal-overlay-1 form h4 {
+    display: none!important
+}
+
+.wow-modal-window h2 {
+    text-transform: uppercase!important
+}
+
+.wow-modal-window h4 {
+    font-size: 1.25em;
+    margin: 0!important;
+    color: #000;
+    font-weight: bold;
+    font-family: "PT Sans";
+    text-align: center!important
+}
+
+.wow-modal-botton-1 {
+    background: #cc00cc!important;
+    font-size: 18px
+}
+
+
+/*LANDINGS*/
+.page-id-2400, .page-id-2436, .page-id-2442, .page-id-2448, .page-id-2452, .page-id-2456{ overflow: hidden}
+.page-id-2400 footer, .page-id-2436 footer, .page-id-2442 footer, .page-id-2448 footer, .page-id-2452 footer, .page-id-2456 footer{display:none;}
+
+.page-id-2400 .navbar.navbar-fixed-top, .page-id-2436 .navbar.navbar-fixed-top, .page-id-2442 .navbar.navbar-fixed-top, .page-id-2448 .navbar.navbar-fixed-top, .page-id-2452 .navbar.navbar-fixed-top, .page-id-2456 .navbar.navbar-fixed-top{top:0!important}
+
+.page-id-2400 .nav li, .page-id-2436 .nav li, .page-id-2442 .nav li, .page-id-2448 .nav li, .page-id-2452 .nav li, .page-id-2456 .nav li{display:none!important}
+.page-id-2400 .nav #menu-item-2154, .page-id-2436 .nav #menu-item-2154, .page-id-2442 .nav #menu-item-2154, .page-id-2448 .nav #menu-item-2154, .page-id-2452 .nav #menu-item-2154, .page-id-2456 .nav #menu-item-2154{display:block!important}
+.page-id-2400 #childmodelling-background .container, .page-id-2436 #childmodelling-background-2 .container, .page-id-2442 #childmodelling-background-2 .container, .page-id-2448 #childmodelling-background .container, .page-id-2452 #childmodelling-background-2 .container, .page-id-2456 #childmodelling-background-2 .container{display: flex; position: relative; justify-content: center; align-items: center;flex-direction: column;height: 100vh;
+width: 90%!important;}
+
+.page-id-2400 #childmodelling-background .container h1, .page-id-2436 .container h1, .page-id-2442 .container h1, .page-id-2448 .container h1, .page-id-2452 .container h1, .page-id-2456 .container h1{font-size:3em}
+.page-id-2400 .page .wpb_wrapper, .page-id-2436 .page .wpb_wrapper, .page-id-2442 .page .wpb_wrapper, .page-id-2448 .page .wpb_wrapper, .page-id-2452 .page .wpb_wrapper, .page-id-2456 .page .wpb_wrapper{padding:0!important}
+.page-id-2400 .wpb_column.vc_column_container.vc_col-sm-12, .page-id-2436 .wpb_column.vc_column_container.vc_col-sm-12, .page-id-2442 .wpb_column.vc_column_container.vc_col-sm-12, .page-id-2448 .wpb_column.vc_column_container.vc_col-sm-12, .page-id-2452 .wpb_column.vc_column_container.vc_col-sm-12, .page-id-2456 .wpb_column.vc_column_container.vc_col-sm-12{background:rgba(255,255,255,0.75)!important}
+
+.page-id-2400 form, .page-id-2436 form, .page-id-2442 form, .page-id-2448 form, .page-id-2452 form, .page-id-2456 form {width:75%; margin:auto}
+.page-id-2400 form h4, .page-id-2436 form h4, .page-id-2442 form h4, .page-id-2448 form h4, .page-id-2452 form h4, .page-id-2456 form h4{display:none}
+.page-id-2400 form .form-control, .page-id-2436 form .form-control, .page-id-2442 form .form-control, .page-id-2448 form .form-control, .page-id-2452 form .form-control, .page-id-2456 form .form-control{padding:5px}
+.page-id-2400 form .row, .page-id-2436 form .row, .page-id-2442 form .row, .page-id-2448 form .row, .page-id-2452 form .row, .page-id-2456 form .row{ margin-bottom:10px}
+.page-id-2400 form div.row .w75, .page-id-2436 form div.row .w75, .page-id-2442 form div.row .w75, .page-id-2448 form div.row .w75, .page-id-2452 form div.row .w75, .page-id-2456 form div.row .w75{width:75%!important}
+.page-id-2400 form div.row .w25, .page-id-2436 form div.row .w25, .page-id-2442 form div.row .w25, .page-id-2448 form div.row .w25, .page-id-2452 form div.row .w25, .page-id-2456 form div.row .w25{width:25%!important}
+.page-id-2400 form div.row .form-control, .page-id-2436 form div.row .form-control, .page-id-2442 form div.row .form-control, .page-id-2448 form div.row .form-control, .page-id-2452 form div.row .form-control, .page-id-2456 form div.row .form-control{ background:rgba(255,255,255,0.75); color:#444}
+.page-id-2400 form div.row .transparent .form-control, .page-id-2436 form div.row .transparent .form-control, .page-id-2442 form div.row .transparent .form-control, .page-id-2448 form div.row .transparent .form-control, .page-id-2452 form div.row .transparent .form-control, .page-id-2456 form div.row .transparent .form-control{background:none!important; border:none!important}
+
+.page-id-2400 .wpb_content_element, .page-id-2436 .wpb_content_element, .page-id-2442 .wpb_content_element, .page-id-2448 .wpb_content_element, .page-id-2452 .wpb_content_element, .page-id-2456 .wpb_content_element{margin-bottom:15px!important}
+
+.page-id-2456 .image-bg, .page-id-2436 .image-bg{background-position:center top!important}
+
+
+/*THANK YOU PAGES LANDING*/
+.page-id-2428, .page-id-2418, .page-id-2426, .page-id-2430, .page-id-2432 , .page-id-2434 {overflow:hidden}
+.page-id-2428 #page, .page-id-2418 #page, .page-id-2426 #page, .page-id-2430 #page, .page-id-2432 #page, .page-id-2434 #page  {min-height:100vh; padding:0; display: flex; justify-content: center; align-items: center; background:#f5f5f5}
+.page-id-2428 #stay-in-touch, .page-id-2418 #stay-in-touch, .page-id-2426 #stay-in-touch, .page-id-2430 #stay-in-touch, .page-id-2432 #stay-in-touch, .page-id-2434 #stay-in-touch{display:none!important}
+.page-id-2428 .nav li, .page-id-2418 .nav li, .page-id-2430 .nav li, .page-id-2432 .nav li, .page-id-2434 .nav li{display:none!important}
+.page-id-2428 .nav #menu-item-2154, .page-id-2418 .nav #menu-item-2154, .page-id-2430 .nav #menu-item-2154, .page-id-2432 .nav #menu-item-2154, .page-id-2434 .nav #menu-item-2154{display:block!important}
+.page-id-2428 footer, .page-id-2418 footer, .page-id-2430 footer, .page-id-2432 footer, .page-id-2434 footer{display:none}
+
+
+
+/*responsive landings*/
+@media (max-width:900px){
+.page-id-2400, .page-id-2436, .page-id-2442, .page-id-2448, .page-id-2452, .page-id-2456{overflow-y:scroll}
+.page-id-2400 form div.row .w75, .page-id-2436 form div.row .w75, .page-id-2442 form div.row .w75, .page-id-2448 form div.row .w75, .page-id-2452 form div.row .w75, .page-id-2456 form div.row .w75, .page-id-2400 form div.row .w25, .page-id-2436 form div.row .w25, .page-id-2442 form div.row .w25, .page-id-2448 form div.row .w25, .page-id-2452 form div.row .w25, .page-id-2456 form div.row .w25{width:100%!important}
+.page-id-2400 #childmodelling-background .container, .page-id-2436 #childmodelling-background-2 .container, .page-id-2442 #childmodelling-background-2 .container, .page-id-2448 #childmodelling-background-2 .container, .page-id-2452 #childmodelling-background .container, .page-id-2456 #childmodelling-background-2 .container{height:auto; margin-top:100px}
+form .row>div{margin-bottom:10px!important}
+    
+}
