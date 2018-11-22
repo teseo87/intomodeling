@@ -61,7 +61,7 @@
     padding-left: 120px;
     position: relative;
     text-align: left!important;
-    min-height: 110px
+    height: 200px;
 }
 
 .testimonial:before,
@@ -349,7 +349,7 @@ body.hide-nav.page-template-page-home-php .navbar {
     }
     #stay-in-touch {
         position: fixed;
-        top: 50%;
+        top: calc(50% + 44px);
         right: 0;
         transform: translateY(-50%);
         width: 250px;
@@ -358,6 +358,7 @@ body.hide-nav.page-template-page-home-php .navbar {
         padding: 0;
         box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.15);
         background: #e0e0ff;
+        z-index: 101 !important;
     }
     #stay-in-touch .tint {
         background: none!important

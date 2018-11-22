@@ -1,3 +1,8 @@
+<?php
+function enviar() {
+    echo "string";
+};
+?>
 <footer id="footer">
     <div class="container">
         <!-- <button type="button" class="botonContactForm">Apply Now!</button>-->
@@ -38,7 +43,7 @@
         <p style="text-align: center;"></p>
         <div role="form" class="wpcf7" id="wpcf7-f2264-o3" dir="ltr" lang="en-US">
             <div class="screen-reader-response"></div>
-            <form action="/#wpcf7-f2264-o3" method="post" class="wpcf7-form" enctype="multipart/form-data" novalidate="novalidate">
+            <form action="enviar();" method="post" class="wpcf7-form" enctype="multipart/form-data" novalidate="novalidate">
                 <div style="display: none;">
                     <input type="hidden" name="_wpcf7" value="2264">
                     <input type="hidden" name="_wpcf7_version" value="4.9.2">
@@ -131,75 +136,7 @@
     </div>
 </div>
 
+</body>
 
-<script type="text/javascript">
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-       location = 'http://intomodeling.com/thank-you-for-your-application/';
-   }, false );
-</script>
-<script type="text/javascript">
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-    if ( '2416' == event.detail.contactFormId ) {
-        location = 'http://intomodeling.com/thank-you-cfb';
-    } else if ( '2421' == event.detail.contactFormId ) {
-        location = 'http://intomodeling.com/thank-you-wfb';
-    }else if ( '2422' == event.detail.contactFormId ) {
-        location = 'http://intomodeling.com/thank-you-mfb';
-    }else if ( '2423' == event.detail.contactFormId ) {
-        location = 'http://intomodeling.com/thank-you-mAW';
-    }else if ( '2424' == event.detail.contactFormId ) {
-        location = 'http://intomodeling.com/thank-you-wAW';
-    }else if ( '2425' == event.detail.contactFormId ) {
-        location = 'http://intomodeling.com/thank-you-wAW';
-    }
-     else {
-        location = 'http://intomodeling.com/thank-you-for-your-application';
-    }
-}, false );
-</script>
-
-<link rel="stylesheet" id="modal-window-style-1-css" href="css/style-1.css" type="text/css" media="all">
-
-<link rel="stylesheet" id="modal-window-font-awesome-css" href="css/font-awesome_002.css" type="text/css" media="all">
-
-
-<script type="text/javascript">
-/* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"http:\/\/intomodeling.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
-/* ]]> */
-</script>
-
-<script type="text/javascript" src="js/scripts.js"></script>
-
-<script type="text/javascript" src="js/comment-reply.js"></script>
-
-<script type="text/javascript" src="js/bootstrap.js"></script>
-
-<script type="text/javascript" src="js/retina-1.js"></script>
-
-<script type="text/javascript" src="js/owl.js"></script>
-
-<script type="text/javascript" src="js/jquery.js"></script>
-
-<script type="text/javascript" src="js/jquery_003.js"></script>
-
-<script type="text/javascript" src="js/jquery_006.js"></script>
-
-<script type="text/javascript" src="js/jquery_002.js"></script>
-
-<script type="text/javascript" src="js/jquery_005.js"></script>
-
-<script type="text/javascript" src="js/main.js"></script>
-
-<script type="text/javascript" src="js/custom.js"></script>
-
-<script type="text/javascript" src="js/wp-embed.js"></script>
-
-<script type="text/javascript" src="js/js_composer_front.js"></script>
-
-<script type="text/javascript" src="js/script-1.js"></script>
-
-
-
-</body></html>
+</html>
 

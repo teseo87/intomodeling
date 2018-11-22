@@ -38,29 +38,29 @@
 	      });
 	    });
 
-		// $('.fs-slider').each(function(){
+		$('.fs-slider').each(function(){
 
-		// 	// var play = parseInt( $(this).attr('data-pause') );
-		// 	// var animation = $(this).attr('data-effect');
-		// 	// var animation_speed = parseInt( $(this).attr('data-animation') );
-		// 	// var inherit_width_from = $(this).attr('data-width');
-		// 	// var inherit_height_from = $(this).attr('data-height');
-		// 	// if( $(this).attr('data-pagination') == 'on' ) {
-		// 	// 	var pagination = 1;
-		// 	// } else {
-		// 	// 	var pagination = 0;
-		// 	// }
+			// var play = parseInt( $(this).attr('data-pause') );
+			// var animation = $(this).attr('data-effect');
+			// var animation_speed = parseInt( $(this).attr('data-animation') );
+			// var inherit_width_from = $(this).attr('data-width');
+			// var inherit_height_from = $(this).attr('data-height');
+			// if( $(this).attr('data-pagination') == 'on' ) {
+			// 	var pagination = 1;
+			// } else {
+			// 	var pagination = 0;
+			// }
 
-		// 	$(this).superslides({
-		// 		play: 5000,
-		// 		animation_speed: 2000,
-		// 		animation: 'fade',
-		// 		//pagination: pagination,
-		// 		inherit_width_from: inherit_width_from,
-		// 		inherit_height_from: inherit_height_from
-		// 	});
+			$(this).superslides({
+				play: 5000,
+				animation_speed: 2000,
+				animation: 'fade',
+				//pagination: pagination,
+				// inherit_width_from: inherit_width_from,
+				// inherit_height_from: inherit_height_from
+			});
 
-		// });
+		});
 
 
 		// ====================================================================
