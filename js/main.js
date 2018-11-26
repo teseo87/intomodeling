@@ -28,6 +28,58 @@
 		});
 
 
+
+		// Applu Now Button
+
+		// $("input#applybutton").click(function(e) {		    
+		//     $("body").addClass("validated");
+		//     e.preventDefault();
+		//     var valid = true;
+		//     if ($("#nombre").val().length < 2) {
+		//         valid = false;
+		//         $("#nombre").parents(".form-group").addClass("invalid");
+		//     } else {
+		//         $("#nombre").parents(".form-group").removeClass("invalid");
+		//     }
+		//     if ($("#apellido").val().length < 2) {
+		//         valid = false;
+		//         $("#apellido").parents(".form-group").addClass("invalid");
+		//     } else {
+		//         $("#apellido").parents(".form-group").removeClass("invalid");
+		//     }
+		//     if ($("#asunto").val().length < 4) {
+		//         valid = false;
+		//         $("#asunto").parents(".form-group").addClass("invalid");
+		//     } else {
+		//         $("#asunto").parents(".form-group").removeClass("invalid");
+		//     }
+		//     if ($("#mensaje").val().length < 2) {
+		//         valid = false;
+		//         $("#mensaje").parents(".form-group").addClass("invalid");
+		//     } else {
+		//         $("#mensaje").parents(".form-group").removeClass("invalid");
+		//     }
+		//     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		//     if (!re.test($("#email").val())) {
+		//         valid = false;
+		//         $("#email").parents(".form-group").addClass("invalid");
+		//     } else {
+		//         $("#email").parents(".form-group").removeClass("invalid");
+		//     }
+		//     if (!valid)
+		//         return false;
+		//     var contactoContent = {
+		//         "nombre": $("#nombre").val(),
+		//         "apellido": $("#apellido").val(),
+		//         "email": $("#email").val(),
+		//         "asunto": $("#asunto").val(),
+		//         "mensaje": $("#mensaje").val(),
+		//     };
+		//     $.post(apiurl + 'contacto', contactoContent, function(data) {
+		//         window.location = "gracias.php";
+		//     });
+		// });
+
 		// ====================================================================
 
 		// Superslides

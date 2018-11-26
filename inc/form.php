@@ -64,7 +64,7 @@
                     <div class="wpb_wrapper">
                         <div role="form" class="wpcf7" id="wpcf7-f2264-o2" dir="ltr" lang="en-US">
                             <div class="screen-reader-response"></div>
-                            <form action="/#wpcf7-f2264-o2" method="post" class="wpcf7-form" enctype="multipart/form-data" novalidate="novalidate">
+                            <form method="post" action="mail-send.php" class="wpcf7-form" enctype="multipart/form-data" novalidate="novalidate">
                                 <div style="display: none;">
                                     <input type="hidden" name="_wpcf7" value="2264">
                                     <input type="hidden" name="_wpcf7_version" value="4.9.2">
@@ -76,31 +76,31 @@
                                 <div class="row">
                                     <div class="col-md-6 w75">
                                         <span class="wpcf7-form-control-wrap full-name">
-                                            <input type="text" name="full-name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Full name">
+                                            <input type="text" name="full-name" id="full-name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Full name">
                                         </span>
                                     </div>
                                     <div class="col-md-6 w25">
                                         <span class="wpcf7-form-control-wrap age">
-                                            <input type="number" name="age" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Age">
+                                            <input type="number" name="age" id="age" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number form-control" aria-required="true" aria-invalid="false" placeholder="Age">
                                         </span>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <span class="wpcf7-form-control-wrap email">
-                                            <input type="email" name="email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="Email Address">
+                                            <input type="email" name="email" id="email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="Email Address">
                                         </span>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <span class="wpcf7-form-control-wrap mobile">
-                                            <input type="tel" name="mobile" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control" aria-required="true" aria-invalid="false" placeholder="Phone (Mobile)">
+                                            <input type="tel" name="mobile" id="mobile" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control" aria-required="true" aria-invalid="false" placeholder="Phone (Mobile)">
                                         </span>
                                     </div>
                                     <div class="col-md-6">
                                         <span class="wpcf7-form-control-wrap phoneParents">
-                                            <input type="text" name="phoneParents" size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Phone (Parents if U 18)">
+                                            <input type="text" name="phoneParents" id="phoneParents" size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="Phone (Parents if U 18)">
                                         </span>
                                     </div>
                                 </div>
@@ -108,17 +108,17 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <span class="wpcf7-form-control-wrap city">
-                                            <input type="text" name="city" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="City">
+                                            <input type="text" name="city" id="city" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="City">
                                         </span>
                                     </div>
                                     <div class="col-md-4">
                                         <span class="wpcf7-form-control-wrap state">
-                                            <input type="text" name="state" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="State">
+                                            <input type="text" name="state" id="state" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="State">
                                         </span>
                                     </div>
                                     <div class="col-md-4">
                                         <span class="wpcf7-form-control-wrap zip">
-                                            <input type="text" name="zip" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Zip">
+                                            <input type="text" name="zip" id="zip" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Zip">
                                         </span>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <span class="wpcf7-form-control-wrap pic">
-                                            <input type="file" name="pic" size="40" class="wpcf7-form-control wpcf7-file wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false">
+                                            <input type="file" name="pic" id="pic" size="40" class="wpcf7-form-control wpcf7-file wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false">
                                         </span>
                                     </div>
                                 </div>
@@ -135,7 +135,7 @@
                                         <span class="wpcf7-form-control-wrap notAgency">
                                             <span class="wpcf7-form-control wpcf7-checkbox wpcf7-exclusive-checkbox form-control">
                                                 <span class="wpcf7-list-item first last">
-                                                    <input type="checkbox" name="notAgency" value="I understand that Into Modeling is not an agency">
+                                                    <input type="checkbox" name="notAgency" id="notAgency" value="I understand that Into Modeling is not an agency">
                                                     <span class="wpcf7-list-item-label">I understand that Into Modeling is not an agency</span>
                                                 </span>
                                             </span>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12 text-center">
-                                        <input type="submit" value="Apply Now" class="wpcf7-form-control wpcf7-submit btn btn-primary btn-lg">
+                                        <input id="applybutton" name=" id="applybutton" type="submit" value="Apply Now" class="wpcf7-form-control wpcf7-submit btn btn-primary btn-lg">
                                         <span class="ajax-loader"></span>
                                     </div>
                                 </div>

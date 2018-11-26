@@ -1,57 +1,62 @@
 <?php
-//recipient
-$to = 'recipient@example.com';
+header("Location: advice.php"); 
+/* Make sure that code below does not get executed when we redirect. */
+exit;
 
-//sender
-$from = 'sender@example.com';
-$fromName = 'Programacion.net';
 
-//email subject
-$subject = 'PHP Email with Attachment'; 
+// //recipient
+// $to = 'recipient@example.com';
 
-//attachment file path
-$file = "archivo.pdf";
+// //sender
+// $from = 'sender@example.com';
+// $fromName = 'Programacion.net';
 
-//email body content
-$htmlContent = '<h1>PHP Email with Attachment</h1>
-    <p>This email has sent from PHP script with attachment.</p>';
+// //email subject
+// $subject = 'PHP Email with Attachment'; 
 
-//header for sender info
-$headers = "From: $fromName"." <".$from.">";
+// //attachment file path
+// $file = "archivo.pdf";
 
-//boundary 
-$semi_rand = md5(time()); 
-$mime_boundary = "==Multipart_Boundary_x{$semi_rand}x"; 
+// //email body content
+// $htmlContent = '<h1>PHP Email with Attachment</h1>
+//     <p>This email has sent from PHP script with attachment.</p>';
 
-//headers for attachment 
-$headers .= "nMIME-Version: 1.0n" . "Content-Type: multipart/mixed;n" . " boundary="{$mime_boundary}""; 
+// //header for sender info
+// $headers = "From: $fromName"." <".$from.">";
 
-//multipart boundary 
-$message = "--{$mime_boundary}n" . "Content-Type: text/html; charset="UTF-8"n" .
-"Content-Transfer-Encoding: 7bitnn" . $htmlContent . "nn"; 
+// //boundary 
+// $semi_rand = md5(time()); 
+// $mime_boundary = "==Multipart_Boundary_x{$semi_rand}x"; 
 
-//preparing attachment
-if(!empty($file) > 0){
-    if(is_file($file)){
-        $message .= "--{$mime_boundary}n";
-        $fp =    @fopen($file,"rb");
-        $data =  @fread($fp,filesize($file));
+// //headers for attachment 
+// $headers .= "nMIME-Version: 1.0n" . "Content-Type: multipart/mixed;n" . " boundary="{$mime_boundary}""; 
 
-        @fclose($fp);
-        $data = chunk_split(base64_encode($data));
-        $message .= "Content-Type: application/octet-stream; name="".basename($file).""n" . 
-        "Content-Description: ".basename($files[$i])."n" .
-        "Content-Disposition: attachment;n" . " filename="".basename($file).""; size=".filesize($file).";n" . 
-        "Content-Transfer-Encoding: base64nn" . $data . "nn";
-    }
-}
-$message .= "--{$mime_boundary}--";
-$returnpath = "-f" . $from;
+// //multipart boundary 
+// $message = "--{$mime_boundary}n" . "Content-Type: text/html; charset="UTF-8"n" .
+// "Content-Transfer-Encoding: 7bitnn" . $htmlContent . "nn"; 
 
-//send email
-$mail = @mail($to, $subject, $message, $headers, $returnpath); 
+// //preparing attachment
+// if(!empty($file) > 0){
+//     if(is_file($file)){
+//         $message .= "--{$mime_boundary}n";
+//         $fp =    @fopen($file,"rb");
+//         $data =  @fread($fp,filesize($file));
 
-//email sending status
-echo $mail?"<h1>Mail sent.</h1>":"<h1>Mail sending failed.</h1>";
+//         @fclose($fp);
+//         $data = chunk_split(base64_encode($data));
+//         $message .= "Content-Type: application/octet-stream; name="".basename($file).""n" . 
+//         "Content-Description: ".basename($files[$i])."n" .
+//         "Content-Disposition: attachment;n" . " filename="".basename($file).""; size=".filesize($file).";n" . 
+//         "Content-Transfer-Encoding: base64nn" . $data . "nn";
+//     }
+// }
+// $message .= "--{$mime_boundary}--";
+// $returnpath = "-f" . $from;
+
+// //send email
+// $mail = @mail($to, $subject, $message, $headers, $returnpath); 
+
+// //email sending status
+// echo $mail?"<h1>Mail sent.</h1>":"<h1>Mail sending failed.</h1>";
 
 ?>
